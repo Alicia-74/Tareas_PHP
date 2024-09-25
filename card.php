@@ -16,10 +16,11 @@
             margin-bottom: 10px; /* Espaciado entre líneas */
         }
         
-        .details strong {
-            margin-right: 10px; /* Espaciado entre la etiqueta y el valor */
+        /* Estilo para los nombres y apellidos */
+        .details p {
+            margin-left: 5px;  /* Espacio pequeño a la izquierda */
+            margin-right: 30px; /* Espacio más grande a la derecha */
         }
-        
         .asignaturas {
             margin-top: 10px; /* Espaciado para la lista de asignaturas */
         }
@@ -31,9 +32,9 @@
         
     <?php
     // Obtener datos del formulario
-    $nombre = $_POST['Nombre']." ";
-    $apellido1 = $_POST['Apellido1']." ";
-    $apellido2 = $_POST['Apellido2']." ";
+    $nombre = $_POST['Nombre'];
+    $apellido1 = $_POST['Apellido1'];
+    $apellido2 = $_POST['Apellido2'];
     $peso = $_POST['peso'];
     $altura = $_POST['altura'];
     $asignaturas = isset($_POST['asignatura']) ? $_POST['asignatura'] : [];
@@ -45,10 +46,10 @@
         <p><strong>Segundo Apellido:</strong> <?php echo $apellido2; ?></p>
     </div>
     <div class="details">
-        <p><strong>Peso:</strong> <?php echo $peso; ?> kg</p>
+        <p><strong>Peso:</strong> <?php echo $peso." "; ?> kg</p>
     </div>
     <div class="details">
-        <p><strong>Altura:</strong> <?php echo $altura; ?> cm</p>
+        <p><strong>Altura:</strong> <?php echo $altura." "; ?> cm</p>
     </div>
 
     <p class="asignaturas"><strong>Asignaturas Seleccionadas:</strong></p>
