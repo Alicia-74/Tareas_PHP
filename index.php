@@ -28,7 +28,7 @@
 <body>
     
     <h2>Matrícula</h2>
-    <form action="#card.php" method="POST">
+    <form action="card.php" method="POST">
         <div class="details">
             <input type="text" id="name" name="Nombre" placeholder="Nombre" required/>
             <input type="text" id="ap1" name="Apellido1" placeholder="Primer Apellido" required/>
