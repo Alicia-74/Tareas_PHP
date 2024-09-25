@@ -42,14 +42,14 @@
         </div>
         <label>Asignaturas de Desarrollo de Aplicaciones Web:</label>
         <div class="checkbox-group">
-            <label><input type="checkbox" name="asignatura[]" value="servidor"> Servidor</label><br>
-            <label><input type="checkbox" name="asignatura[]" value="cliente"> Cliente</label><br>
-            <label><input type="checkbox" name="asignatura[]" value="diseno"> Diseño</label><br>
-            <label><input type="checkbox" name="asignatura[]" value="despliegue"> Despliegue</label><br>
-            <label><input type="checkbox" name="asignatura[]" value="libre_configuracion"> Libre Configuración</label><br>
-            <label><input type="checkbox" name="asignatura[]" value="empresa_iniciativa"> Empresa e Iniciativa Emprendedora</label><br>
-            <label><input type="checkbox" name="asignatura[]" value="proyecto"> Proyecto (TFG)</label><br>
-            <label><input type="checkbox" name="asignatura[]" value="fct"> Formación en Centro de Trabajo (FCT)</label><br>
+            <label><input type="checkbox" name="asignatura[]" value="Servidor"> Servidor</label><br>
+            <label><input type="checkbox" name="asignatura[]" value="Cliente"> Cliente</label><br>
+            <label><input type="checkbox" name="asignatura[]" value="Diseno"> Diseño</label><br>
+            <label><input type="checkbox" name="asignatura[]" value="Despliegue"> Despliegue</label><br>
+            <label><input type="checkbox" name="asignatura[]" value="Libre Configuracion"> Libre Configuración</label><br>
+            <label><input type="checkbox" name="asignatura[]" value="Empresa e Iniciativa Emprendedora"> Empresa e Iniciativa Emprendedora</label><br>
+            <label><input type="checkbox" name="asignatura[]" value="Proyecto (TFG)"> Proyecto (TFG)</label><br>
+            <label><input type="checkbox" name="asignatura[]" value="Formación en Centro de Trabajo (FCT)"> Formación en Centro de Trabajo (FCT)</label><br>
         </div>
         <input type="submit" value="Enviar" />
     </form>
